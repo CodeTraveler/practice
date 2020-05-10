@@ -31,7 +31,7 @@ public class SecurityLogin {
 
 	@RequestMapping(value = "/db", method = RequestMethod.GET)
 	public String dbaPage(ModelMap model) {
-		model.addAttribute("user", getPrincipal());
+		model.addAttribute("Kapil", getPrincipal());
 		return "dba";
 	}
 
